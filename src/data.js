@@ -1,33 +1,33 @@
 const menuFoods = [
   {
     id: 1,
-    name: "01 MERCİMEK ÇORBASI – Linsensuppe",
+    name: "01 Mercimek Çorbası – Linsensuppe",
     description: "Keine Allergene",
   },
   {
     id: 2,
-    name: "02 YAYLA ÇORBASI – Joghurtsuppe nach türkischer Art",
+    name: "02 Yayla Çorbası – Joghurtsuppe nach türkischer Art",
     description:
       "(A) Enthält glutenhaltiges Getreide, (B) Eier, (E) Milch/Laktose",
   },
   {
     id: 3,
-    name: "03 İŞKEMBE ÇORBASI – Kuttelsuppe",
+    name: "03 İşkembe Çorbası – Kuttelsuppe",
     description: "(A) Enthält glutenhaltiges Getreide, (E) Milch/Laktose",
   },
   {
     id: 4,
-    name: "04 KELLE - PAÇA ÇORBASI",
+    name: "04 Kelle - Paça Çorbası",
     description: "Keine Allergene",
   },
   {
     id: 5,
-    name: "05 BEYKOZ ÇORBASI – Gemischte Lammkopf- und Kuttelsuppe",
+    name: "05 Beykoz Çorbası – Gemischte Lammkopf- und Kuttelsuppe",
     description: "(A) Enthält glutenhaltiges Getreide, (E) Milch/Laktose",
   },
   {
     id: 6,
-    name: "06 BEYRAN ÇORBA – Lammfleisch mit Reis und Knoblauch",
+    name: "06 Beyran Çorbası – Lammfleisch mit Reis und Knoblauch",
     description: "(A) Enthält glutenhaltiges Getreide",
   },
   {
