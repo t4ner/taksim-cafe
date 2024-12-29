@@ -365,7 +365,8 @@ const menuFoods = [
   {
     id: 94,
     name: "94 Yumurtalı Sucuklu Menemen",
-    description: "(B) Eier, (E) Milch/Laktose, (G) Sellerie, (C) Soja",
+    description:
+      "(B) Eier, (E) Milch/Laktose, (G) Sellerie, (C) Soja, (1) Farbstoffe, (2) Konservierungsstoffe, (3) Geschmacksverstärker, (4) Antioxidationsmittel, (5) Phosphate, (7) Stabilisatoren, (9) Säuerungsmittel",
   },
   {
     id: 95,
@@ -405,13 +406,14 @@ const menuFoods = [
   {
     id: 103,
     name: "103 Sucuklu-Kaşarlı Pide",
-    description: "(A) Gluten, (E) Milch/Laktose, (G) Sellerie, (C) Soja",
+    description:
+      "(A) Gluten, (E) Milch/Laktose, (G) Sellerie, (C) Soja, (2) Konservierungsstoffe, (3) Geschmacksverstärker, (4) Antioxidationsmittel, (7) Stabilisatoren",
   },
   {
     id: 104,
     name: "104 Sucuklu-Yumurtalı-Kaşarlı Pide",
     description:
-      "(A) Gluten, (B) Eier, (E) Milch/Laktose, (G) Sellerie, (C) Soja",
+      "(A) Gluten, (B) Eier, (E) Milch/Laktose, (G) Sellerie, (C) Soja, (2) Konservierungsstoffe, (3) Geschmacksverstärker, (4) Antioxidationsmittel, (7) Stabilisatoren",
   },
   {
     id: 105,
@@ -421,7 +423,8 @@ const menuFoods = [
   {
     id: 106,
     name: "106 Pastırmalı-Kaşarlı Pide",
-    description: "(A) Gluten, (E) Milch/Laktose, (G) Sellerie",
+    description:
+      "(A) Gluten, (E) Milch/Laktose, (G) Sellerie, (2) Konservierungsstoffe, (3) Geschmacksverstärker, (4) Antioxidationsmittel, (7) Stabilisatoren",
   },
   {
     id: 107,
@@ -506,7 +509,8 @@ const menuFoods = [
   {
     id: 123,
     name: "123 Pizza Knoblauchwurst",
-    description: "(A) Gluten, (E) Milch/Laktose, (G) Sellerie, (C) Soja",
+    description:
+      "(A) Gluten, (E) Milch/Laktose, (G) Sellerie, (C) Soja, (2) Konservierungsstoffe, (3) Geschmacksverstärker, (4) Antioxidationsmittel, (7) Stabilisatoren",
   },
   {
     id: 124,
@@ -516,7 +520,8 @@ const menuFoods = [
   {
     id: 125,
     name: "125 Pizza Salami",
-    description: "(A) Gluten, (E) Milch/Laktose, (D) Senf, (G) Sellerie",
+    description:
+      "(A) Gluten, (E) Milch/Laktose, (D) Senf, (G) Sellerie, (2) Konservierungsstoffe, (3) Geschmacksverstärker, (4) Antioxidationsmittel",
   },
   {
     id: 126,
@@ -557,12 +562,13 @@ const menuFoods = [
     id: 134,
     name: "134 Sucuklu Yumurtalı Tava",
     description:
-      "(A) Gluten, (B) Eier, (E) Milch/Laktose, (G) Sellerie, (C) Soja",
+      "(A) Gluten, (B) Eier, (E) Milch/Laktose, (G) Sellerie, (C) Soja, (2) Konservierungsstoffe, (3) Geschmacksverstärker, (4) Antioxidationsmittel, (7) Stabilisatoren",
   },
   {
     id: 135,
     name: "135 Pastırmalı Yumurtalı Tava",
-    description: "(A) Gluten, (B) Eier, (E) Milch/Laktose",
+    description:
+      "(A) Gluten, (B) Eier, (E) Milch/Laktose, (2) Konservierungsstoffe, (3) Geschmacksverstärker, (4) Antioxidationsmittel, (5) Phosphate, (7) Stabilisatoren",
   },
   {
     id: 136,
@@ -611,7 +617,7 @@ const menuFoods = [
   },
   {
     id: 152,
-    name: "152 Kiremitte Kremalı Mantarli Tavuk",
+    name: "152 Kiremitte Kremalı Mantarlı Tavuk",
     description: "(E) Milch/Laktose",
   },
   {
@@ -637,7 +643,8 @@ const menuFoods = [
   {
     id: 162,
     name: "162 Salsa Soslu Tavuk",
-    description: "(A) Gluten, (D) Senf, (E) Milch/Laktose, (G) Sellerie",
+    description:
+      "(A) Gluten, (D) Senf, (E) Milch/Laktose, (G) Sellerie, (9) Säuerungsmittel",
   },
   {
     id: 163,
@@ -658,7 +665,7 @@ const menuFoods = [
     id: 170,
     name: "170 Mantı Sarımsaklı, Yoğurtlu, Soslu",
     description:
-      "(A) Gluten, (B) Eier, (E) Milch/Laktose, (D) Senf, (G) Sellerie",
+      "(A) Gluten, (B) Eier, (E) Milch/Laktose, (D) Senf, (G) Sellerie, (9) Säuerungsmittel, (10) Verdickungsmittel",
   },
   {
     id: 171,
@@ -674,7 +681,7 @@ const menuFoods = [
     id: 173,
     name: "173 Çıtır Mantı – Knusprige Teigtaschen",
     description:
-      "(A) Gluten, (B) Eier, (E) Milch/Laktose, (D) Senf, (G) Sellerie",
+      "(A) Gluten, (B) Eier, (E) Milch/Laktose, (D) Senf, (G) Sellerie, (9) Säuerungsmittel, (10) Verdickungsmittel",
   },
   {
     id: 174,
@@ -830,7 +837,7 @@ const menuFoods = [
     id: 211,
     name: "211 Cevizli Baklava (4 Adet)",
     description:
-      "Baklava mit Walnüssen (4 Stück), (A) Gluten, (E) Milch/Laktose, ( J) Nüsse",
+      "Baklava mit Walnüssen (4 Stück), (A) Gluten, (E) Milch/Laktose, (J) Nüsse",
   },
   {
     id: 212,
@@ -1124,12 +1131,12 @@ const menuFoods = [
   },
   {
     id: 280,
-    name: "280 Heiße Schokolade mit Sahne",
+    name: "280 Heisse Schokolade mit Sahne",
     description: "(E) Milch/Laktose",
   },
   {
     id: 281,
-    name: "281 Heiße Schokolade ohne Sahne",
+    name: "281 Heisse Schokolade ohne Sahne",
     description: "Keine Allergene",
   },
   {
@@ -1144,7 +1151,7 @@ const menuFoods = [
   },
   {
     id: 284,
-    name: "284 Heiße Zitrone",
+    name: "284 Heisse Zitrone",
     description: "Keine Allergene",
   },
   {
@@ -1326,38 +1333,38 @@ const menuFoods = [
   },
   {
     id: 414,
-    name: "414 Wassermelone (Elephant Bay Ice Tea)",
+    name: "414 Wassermelone",
     description: "(3) Antioxidationsmittel, (9) Säuerungsmittel, (13) Koffein",
   },
   {
     id: 415,
-    name: "415 Blueberry (Elephant Bay Ice Tea)",
+    name: "415 Blueberry",
     description: "(3) Antioxidationsmittel, (9) Säuerungsmittel, (13) Koffein",
   },
   {
     id: 416,
-    name: "416 Lemon (Elephant Bay Ice Tea)",
+    name: "416 Lemon",
     description: "(3) Antioxidationsmittel, (9) Säuerungsmittel, (13) Koffein",
   },
   {
     id: 417,
-    name: "417 Pomegranate (Elephant Bay Ice Tea)",
+    name: "417 Pomegranate",
     description: "(3) Antioxidationsmittel, (9) Säuerungsmittel, (13) Koffein",
   },
   {
     id: 418,
-    name: "418 Pfirsich (Elephant Bay Ice Tea)",
+    name: "418 Pfirsich",
     description: "(3) Antioxidationsmittel, (9) Säuerungsmittel, (13) Koffein",
   },
   {
     id: 419,
-    name: "419 Blueberry (Arizona Ice Tea) (0,5 L)",
+    name: "419 Blueberry (0,5 L)",
     description:
       "(2) Konservierungsstoffe, (3) Antioxidationsmittel, (5) Phosphate, (9) Säuerungsmittel",
   },
   {
     id: 420,
-    name: "420 Pfirsich (Arizona Ice Tea) (0,5 L)",
+    name: "420 Pfirsich (0,5 L)",
     description:
       "(2) Konservierungsstoffe, (3) Antioxidationsmittel, (5) Phosphate, (9) Säuerungsmittel",
   },
@@ -1439,17 +1446,17 @@ const menuFoods = [
   },
   {
     id: 437,
-    name: "437 Bananensaft (0,3 L)",
+    name: "437 Banane (0,3 L)",
     description: "Keine Allergene",
   },
   {
     id: 438,
-    name: "438 Maracujasaft (0,3 L)",
+    name: "438 Maracuja (0,3 L)",
     description: "Keine Allergene",
   },
   {
     id: 439,
-    name: "439 Sauerkirsche Saft (0,3 L)",
+    name: "439 Sauerkirsche (0,3 L)",
     description: "Keine Allergene",
   },
   {
