@@ -66,15 +66,15 @@ const App = () => {
           </div>
         ) : (
           searchValue && (
-            <p className="px-1 mt-2 text-red-500">
+            <p className="px-1 text-red-500">
               Keine Ergebnisse gefunden für: {searchValue}
             </p>
           )
         )}
       </div>
 
-      <div className="absolute -z-10">
-        <img src="/img3.jpeg"  />
+      <div className="flex justify-center -z-10">
+        <img src="/img3.jpeg"/>
       </div>
     </div>
   );
