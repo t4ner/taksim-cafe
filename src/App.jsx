@@ -16,7 +16,7 @@ const App = () => {
     const filteredItems = menuFoods.filter(
       (food) =>
         food.id === value || // ID eşleşmesi
-        food.name.toLowerCase().startsWith(value.toLowerCase()) // İsim eşleşmesi
+        food.name.toLowerCase().includes(value.toLowerCase()) // İsim eşleşmesi
     );
 
     setResults(filteredItems); // Bulunan öğeleri güncelle
