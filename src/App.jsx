@@ -15,8 +15,8 @@ const App = () => {
     // ID veya isim eşleşmesi
     const filteredItems = menuFoods.filter(
       (food) =>
-        food.id === Number(value) || // ID eşleşmesi
-        food.name.toLowerCase().includes(value.toLowerCase()) // İsim eşleşmesi
+        food.id === value || // ID eşleşmesi
+        food.name.toLowerCase().startsWith(value.toLowerCase()) // İsim eşleşmesi
     );
 
     setResults(filteredItems); // Bulunan öğeleri güncelle
@@ -29,17 +29,17 @@ const App = () => {
   };
 
   return (
-    <div className="relative flex-col justify-center items-center h-screen w-screen">
+    <div className="relative flex-col items-center justify-center w-screen h-screen">
       <div className="px-5">
         <div className="flex items-center border-2 bg-white border-[#C21E2D] rounded overflow-hidden hover:shadow-lg transition-shadow duration-300 mt-5">
           <input
             type="text"
-            className="flex-grow px-4 h9 py-2 border-none focus:outline-none"
+            className="flex-grow px-4 py-2 border-none h9 focus:outline-none"
             placeholder="Suchen..."
             value={searchValue}
             onChange={handleInputChange} // Değer değiştiğinde hem arama yap hem de state güncelle
           />
-          <button className="p-2 bg-white h-9 text-black transition-colors duration-300">
+          <button className="p-2 text-black transition-colors duration-300 bg-white h-9">
             <FaSearch />
           </button>
         </div>
@@ -53,7 +53,7 @@ const App = () => {
         }`}
       >
         {results.length > 0 ? (
-          <div className="p-4 border border-gray-300 rounded bg-white  bg-opacity-30">
+          <div className="p-4 bg-white border border-gray-300 rounded bg-opacity-30">
             {results.map((result) => (
               <div
                 key={result.id}
@@ -66,15 +66,15 @@ const App = () => {
           </div>
         ) : (
           searchValue && (
-            <p className="text-red-500 px-1 mt-2">
+            <p className="px-1 mt-2 text-red-500">
               Keine Ergebnisse gefunden für: {searchValue}
             </p>
           )
         )}
       </div>
 
-      <div className="mt-12">
-        <img src="/img.jpg" alt="" />
+      <div className="absolute -z-10">
+        <img src="/img3.jpeg"  />
       </div>
     </div>
   );
