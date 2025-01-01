@@ -29,7 +29,7 @@ const App = () => {
   };
 
   return (
-    <div className="relative flex-col items-center justify-center w-screen h-screen">
+    <div className="relative flex-col items-center justify-center w-screen h-screen overflow-x-hidden">
       <div className="px-5">
         <div className="flex items-center border-2 bg-white border-[#C21E2D] rounded overflow-hidden hover:shadow-lg transition-shadow duration-300 mt-5">
           <input
